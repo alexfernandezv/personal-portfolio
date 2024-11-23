@@ -11,7 +11,7 @@ const introdata = {
         "second": "I scale, automate, and secure cloud infrastructure",
         "third": "I design and optimize cloud architectures"
     },
-    description: "Hi, I'm Alex Fernandez Valladares, a 25-year-old professional based in Barcelona, Spain.",
+    description: "Hi everyone! I'm Alex Fernandez Valladares, a 25-year-old professional based in Barcelona, Spain.",
     desc2: "I hold a degree in Computer Engineering and a MSc in Cybersecurity. Passionate about technology and its ability to solve complex problems.",
     desc3: "I have honed my skills in DevOps, cloud infrastructure, containerization, and Kubernetes. My professional journey has been shaped by hands-on experience in implementing CI/CD pipelines, enhancing security measures, and driving infrastructure modernization.",
     desc4: "With a strong foundation in both engineering and cybersecurity, I thrive on building scalable and secure systems. I’m always eager to collaborate on innovative projects that push the boundaries of what’s possible.",
