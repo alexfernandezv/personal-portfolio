@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-
+import yourImage from '../../assets/images/me.jpeg'
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -16,8 +16,8 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            className="h_bg-image order-1 order-lg-2 h-10 "
+            style={{ width: '30%', backgroundImage: `url(${yourImage})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -37,11 +37,14 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                <p className="mb-2x justify-content" style={{ textAlign: "justify"}}>{introdata.description}</p>
+                <p className="mb-2x justify-content" style={{ textAlign: "justify"}}>{introdata.desc2}</p>
+                <p className="mb-2x" style={{ textAlign: "justify"}}>{introdata.desc3}</p>
+                <p className="mb-2x" style={{ textAlign: "justify"}}>{introdata.desc4}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      My knowledge & skills
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

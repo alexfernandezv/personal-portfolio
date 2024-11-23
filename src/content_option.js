@@ -1,18 +1,21 @@
-const logotext = "ALEX";
+const logotext = "";
 const meta = {
     title: "Alex Fernandez Valladares",
-    description: "I’m Alex Fernandez Valladares data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Welcome to my personal & professional portfolio",
 };
 
 const introdata = {
-    title: "I’m Alex Fernandez",
+    title: "Alex Fernandez Valladares",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        "first": "I automate workflows & build reliable systems",
+        "second": "I scale, automate, and secure cloud infrastructure",
+        "third": "I design and optimize cloud architectures"
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Hi, I'm Alex Fernandez Valladares, a 25-year-old professional based in Barcelona, Spain.",
+    desc2: "I hold a degree in Computer Engineering and a MSc in Cybersecurity. Passionate about technology and its ability to solve complex problems.",
+    desc3: "I have honed my skills in DevOps, cloud infrastructure, containerization, and Kubernetes. My professional journey has been shaped by hands-on experience in implementing CI/CD pipelines, enhancing security measures, and driving infrastructure modernization.",
+    desc4: "With a strong foundation in both engineering and cybersecurity, I thrive on building scalable and secure systems. I’m always eager to collaborate on innovative projects that push the boundaries of what’s possible.",
+    your_img_url: "https://ibb.co/7WzGHS7",
 };
 
 const dataabout = {
@@ -73,72 +76,55 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://www.imghost.net/ib/fYg4kTFOKqzMBK0_1732390443.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://www.imghost.net/ib/Oui2fPxIzQ9V167_1732390444.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://www.imghost.net/ib/1wzgFxaddEZRvuN_1732390763.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://www.imghost.net/ib/BCTJlXwj0qHFAAv_1732390581.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://www.imghost.net/ib/zvMTjUF6bTLYobb_1732390708.jpeg",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://www.imghost.net/ib/8dHiFHfdu9kezSm_1732390580.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://www.imghost.net/ib/mTL0sznBz0bXdnr_1732391111.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://www.imghost.net/ib/njl9coB2WltHPY1_1732390997.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://www.imghost.net/ib/isAOCQFKJOTYJJ9_1732391111.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "alexfernandezvalladares@gmail.com",
+    description: "Just leave an email and I will get back to you as soon as possible!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +133,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/alexfernandezv",
+    linkedin: "https://linkedin.com/in/alex-fernandez-valladares"
 };
 export {
     meta,
