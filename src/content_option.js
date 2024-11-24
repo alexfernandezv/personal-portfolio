@@ -7,8 +7,9 @@ const meta = {
 const introdata = {
     title: "Alex Fernandez Valladares",
     animated: {
-        "first": "I automate workflows & build reliable systems",
-        "second": "I scale, automate, and secure cloud infrastructure",
+        "first": "I automate workflows",
+        "second": "I build reliable systems",
+        "seconds": "I scale, automate, and secure cloud infrastructure",
         "third": "I design and optimize cloud architectures"
     },
     description: "Hi everyone! I'm Alex Fernandez Valladares, a 25-year-old professional based in Barcelona, Spain.",
